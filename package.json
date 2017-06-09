@@ -1,0 +1,33 @@
+{
+  "name": "proxyer-cli",
+  "author": "scott.lan <mic1028002@gmail.com>",
+  "version": "0.0.1",
+  "description": "CLI for Proxyer",
+  "main": "index.js",
+  "bin": {
+    "proxyer": "./bin/proxyer"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "connect": "^3.6.2",
+    "connect-modrewrite": "^0.10.1",
+    "console-stamp": "^0.2.5",
+    "forever": "^0.15.3",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.3.0",
+    "gulp-file-include": "^1.1.0",
+    "gulp-is-binary": "^0.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-shell": "^0.6.3",
+    "http-proxy": "^1.16.2",
+    "pm2": "^2.4.0",
+    "sync-request": "^4.0.1",
+    "through2": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scott1028/proxyer-cli.git"
+  },
+  "license": "MIT"
+}
