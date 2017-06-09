@@ -1,4 +1,4 @@
-# proxy-cli
+# proxyer-cli
 
 ```
 [Options]
