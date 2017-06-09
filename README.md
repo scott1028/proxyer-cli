@@ -19,4 +19,4 @@
 
 # Example
 
-![Alt text](https://raw.githubusercontent.com/scott1028/proxy-cli/master/example.png "example.png")
+![Alt text](https://raw.githubusercontent.com/scott1028/proxyer-cli/master/example.png "example.png")
