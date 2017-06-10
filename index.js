@@ -80,8 +80,8 @@ proxy.on('proxyReq', function(proxyReq, req, res, options) {
 var app = connect()
     .use(function(req, res, next){
         var data = [];
-        req.on('data', function(chuck){
-            data.push(chuck);
+        req.on('data', function(chunk){
+            data.push(chunk);
         });
         req.on('end', function(){
             var body = Buffer.concat(data);
