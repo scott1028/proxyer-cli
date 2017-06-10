@@ -57,6 +57,9 @@ String.prototype.__defineGetter__('timestamp', function(){
 });
 
 var proxy = httpProxy.createProxyServer({});
+proxy.on('error', function(e) {
+    console.error(`Error: ${e.message}`.timestamp.red);
+});
 proxy.on('proxyReq', function(proxyReq, req, res, options) {
     proxyReq.setHeader('X-Special-Proxy-Header', 'proxy-cli');
     proxyReq.setHeader('Host', req.host);
